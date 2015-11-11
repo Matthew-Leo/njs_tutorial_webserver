@@ -1,0 +1,24 @@
+{
+  "name": "web-server",
+  "description": "",
+  "version": "0.0.1",
+  "main": "./web-server.js",
+  "author": {
+    "name": "mattleo",
+    "email": "grumpynerd@yahoo.com"
+  },
+  "keywords": [],
+  "licenses": {
+    "type": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YOUR_LOGIN/web-server.git"
+  },
+  "bugs": {
+    "url": "http://github.com/YOUR_LOGIN/web-server/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.2"
+  }
+}
