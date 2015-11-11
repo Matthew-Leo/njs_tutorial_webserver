@@ -37,7 +37,7 @@ app.enable('trust proxy');
  * ROUTES
  */
 app.get('/about', middleware.requireAuthentication, function(req, res) {
-    res.send("About Us: We are cool");
+    res.send("About Us: We are cool.");
 })
 
 app.use(express.static(PUBLIC_DIR));
